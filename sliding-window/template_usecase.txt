@@ -1,0 +1,48 @@
+Sliding window is simply:
+expanding the window
+shrinking the window
+maintaining a condition
+
+Used in:
+longest substring
+max sum subarray
+count distinct elements
+frequency-based problems
+
+template:
+int left = 0;
+
+for(int right = 0; right < n; right++) {
+    
+    // expand window with right
+
+    while(windowInvalid) {
+        // shrink window with left
+        left++;
+    }
+
+    // update answer
+}
+
+
+Sliding Window is used when you deal with:
+subarrays
+substrings
+CONTINUOUS segments
+"longest", "shortest", "maximum", "minimum" type problems
+
+Example:
+"Find the longest substring without repeating characters"
+"Find max sum of subarray of size k"
+"Find number of substrings with property X"
+
+Types of Sliding Window
+=> 1. Fixed-size sliding window
+Window size is constant (e.g., size k).
+Example:
+Max sum of subarray of size k.
+
+=> 2. Variable-size sliding window
+Window expands and contracts until it satisfies a condition.
+Example:
+Longest substring without repeating characters.

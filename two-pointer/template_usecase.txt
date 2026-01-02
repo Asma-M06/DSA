@@ -1,0 +1,22 @@
+When to use it:
+sorted arrays
+remove duplicates
+reverse arrays
+find pairs
+merge arrays
+palindrome check
+comparing strings
+
+
+
+template: 
+int left = 0;
+int right = n - 1;
+
+while(left < right) {
+    // logic using arr[left] and arr[right]
+    
+    // move pointers
+    if(condition) left++;
+    else right--;
+}
