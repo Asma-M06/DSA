@@ -1,3 +1,4 @@
+.vscode/
 # C++ compiled binaries
 a.out
 *.out
