@@ -1,1 +1,12 @@
-.vscode/
+# C++ compiled binaries
+a.out
+*.out
+
+# Ignore executables without extension (macOS/Linux)
+sliding-window/*
+!sliding-window/*.cpp
+!sliding-window/*.txt
+
+two-pointer/*
+!two-pointer/*.cpp
+!two-pointer/*.txt
